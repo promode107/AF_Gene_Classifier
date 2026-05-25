@@ -1,0 +1,12 @@
+streamlit>=1.32.0
+numpy
+pandas
+scikit-learn==1.6.1
+xgboost
+joblib
+plotly
+
+# Optional — required for full ProtBERT inference (recommended for best accuracy)
+# Without these, the app uses mean-embedding fallback (still functional)
+torch
+transformers
